@@ -1,0 +1,157 @@
+/**
+ * CSS for Category Page
+ */
+
+.book-list {
+	list-style: none;
+	padding-left: 0;
+}
+
+.book-item {
+	margin-top: 15px;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+	border-top: 1px solid #ddd;
+}
+
+.thumbnail-wrap {
+	position: relative;
+}
+
+.book-cover .cover-thumbnail {
+	width: 140px;
+	display: block;
+	margin: 0 auto;
+}
+
+.book-cover .cover-thumbnail:hover {
+	box-shadow: 0px 0px 8px rgba(0,0,0,.15);
+}
+
+.book-details .book-title {
+	margin-bottom: 5px;
+}
+
+.book-details .book-title .title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 4px;
+}
+
+.book-details .book-title .author {
+	color: #3ca0d3;
+}
+
+.book-format {
+	margin-bottom: 4px;
+}
+
+.book-format .format {
+	color: #a0a0a0;
+}
+
+.book-price .price,
+.book-price .currency {
+	font-size: 16px;
+	color: #333;
+}
+
+.book-price .price {
+	font-weight: bold;
+	padding: 6px;
+	border-radius: 2px;
+	margin-right: 6px;
+	background-color: #FFF59D; /* Yellow 200 */
+}
+
+.book-promotion_container,
+.book-share_widget {
+	padding-left: 20px;
+	padding-top: 15px;
+}
+
+
+.book-promotion_container .book_ratings .rating-box, 
+.book-promotion_container .book_ratings .rating-details{
+	display: inline-block;
+}
+
+.book-promotion_container .book_ratings,
+.book-promotion_container .book_sale {
+	margin-bottom: 8px;
+}
+
+.book-promotion_container .book_sale .best-seller_title {
+	padding: 3px 5px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #f8883c;
+}
+
+.book-share_widget-title,
+.book-share_widget-item {
+	color: #777;
+}
+
+.menu-pager .pager {
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 20px;
+}
+
+.menu-pager .pager > li > a {
+	padding: 2px 8px;
+	border-radius: 0;
+}
+
+.menu-pager .pager > li > a:hover {
+	background-color: #FFECB3;
+}
+
+/*
+ * Pagination
+ */
+.list-pagination {
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+
+.list-pagination .pagination {
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+
+.list-pagination .pagination > li > a {
+	color: #323232;
+}
+
+.list-pagination .pagination > li > a:hover,
+.list-pagination .pagination > li > a:active,
+.list-pagination .pagination > li > a:focus {
+	color: #f8883c;
+	background-color: #FFECB3; /* Amber 100 */
+}
+
+.list-pagination .pagination .active > a {
+	color: #fff;
+	background-color: #f8883c;
+	border-color: #f8883c;
+}
+
+.list-pagination .pagination .active > a:hover {
+	color: #fff;
+	background-color: #f8883c;
+}
+
+.list-pagination .pagination > li:first-child > a {
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.list-pagination .pagination > li:last-child > a {
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}

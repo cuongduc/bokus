@@ -21,7 +21,7 @@ class Product extends Model {
         'weight', 'dimension_unit',
         'width', 'length', 'height', 'max_per_order',
         'min_per_order', 'price', 'price_unit',
-        'avatar', 'main_image', 'total_votes', 'average_score'
+        'avatar', 'main_image', 'total_votes', 'average_score', 'discount_id'
     ];
 
     /**
@@ -44,6 +44,16 @@ class Product extends Model {
     public function rules()
     {
         return $this->rules;
+    }
+
+
+    /**
+     * At a given time, a product might have only 1 discount
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function discount()
+    {
+        return $this->belongsTo('bokus\Discount');
     }
 
     /**

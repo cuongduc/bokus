@@ -13,7 +13,8 @@ return [
 	|
 	*/
 
-	'debug' => env('APP_DEBUG'),
+//	'debug' => env('APP_DEBUG'),
+    'debug' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -145,6 +146,8 @@ return [
 		'bokus\Providers\EventServiceProvider',
 		'bokus\Providers\RouteServiceProvider',
 
+        'Gloudemans\Shoppingcart\ShoppingcartServiceProvider',
+
 	],
 
 	/*
@@ -192,6 +195,7 @@ return [
 		'URL'       => 'Illuminate\Support\Facades\URL',
 		'Validator' => 'Illuminate\Support\Facades\Validator',
 		'View'      => 'Illuminate\Support\Facades\View',
+        'Cart'      => 'Gloudemans\Shoppingcart\Facades\Cart',
 
 	],
 

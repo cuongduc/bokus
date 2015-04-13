@@ -1,0 +1,57 @@
+/**
+ * checkout.css - styles for checkout process pages
+ *
+ * cuongict
+ */
+
+.checkout_wrapper {
+	padding: 15px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border-radius: 2px;
+	border-bottom: 3px solid #dedede;
+}
+
+.checkout_process-state {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.checkout_process-state_description {
+	text-align: center;
+}
+
+.state_description {
+	font-size: 14px;
+}
+
+.active-state .state_description {
+	font-weight: bold;
+	color: #f8883c !important;
+}
+
+.checkout_form-wrapper {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+
+.checkout_form-control {
+	position: relative;
+	width: 100%;
+	border-top: 1px dotted #dedede;
+}
+
+.form-button_box-wrapper {
+	position: absolute;
+	top: 15px;
+	right: 0;
+}
+
+.checkout_form-button_box {
+	display: inline-block;
+	margin-left: 15px;
+}

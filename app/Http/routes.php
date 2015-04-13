@@ -11,7 +11,9 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+Route::get('/', 'BokusController@index');
+
+Route::get('categories/create', 'CategoriesController@create');
 
 Route::get('home', 'HomeController@index');
 

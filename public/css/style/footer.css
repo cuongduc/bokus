@@ -1,0 +1,31 @@
+/**
+ * footer.css - styling for footer part of the page
+ * @author: cuongdd
+ * @createat: 22:11 20 January 2015 (Tuesday);
+ */
+ .footer {
+ 	margin-top: 30px;
+ 	padding: 15px;
+ 	background-color: #fff;
+ }
+ .footer .footer-col .col-title {
+ 	margin-bottom: 5px;
+	border-bottom: 1px dotted #ccc;
+ }
+
+ .footer .footer-col .col-title .title {
+	font-weight: bold;
+	color: #323232;
+	padding-bottom: 4px;
+	margin-bottom: 2px;
+ }
+
+
+ .footer .footer-col ul.footer-list {
+ 	list-style: none;
+ 	padding-left: 5px;
+ }
+
+ .footer .footer-col ul.footer-list > li {
+ 	padding: 3px 0px;
+ }

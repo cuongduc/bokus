@@ -1,0 +1,210 @@
+/*
+ * global.css - general styles for web app
+ * @author: cuongdd;
+ * @createat: 23:13 20 January 2015 (Tuesday)
+ */
+ /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=latin,vietnamese);*/
+
+ body {
+ 	font-family: 'Lato', 'Helvetica', sans-serif;
+	font-size: 14px;
+     font-weight: 400;
+	background-color: #f7f7f7;
+ }
+ 
+ * {
+	outline: none;
+ }
+
+ * a {
+ 	color: #323232;
+ }
+
+ * a:hover {
+ 	color: #f8883c;
+ 	text-decoration: none;
+ }
+
+ * a:active, * a:focus {
+ 	outline: none;
+ }
+ 
+ .bokus-btn {
+	display: inline-block;
+	font-size: 13px;
+	line-height: 1.4;
+	font-weight: normal;
+	padding: 6px 6px;
+	vertical-align: middle;
+	cursor: pointer;
+	border-radius: 4px;
+ }
+
+ .bokus-btn > img.btn-img {
+ 	display: inline-block;
+ 	vertical-align: middle;
+ 	float: left;
+ 	max-height: 28px;
+ 	margin-top: 3px;
+ 	margin-right: 8px;
+ }
+
+ .bokus-btn-default {
+ 	color: #323232;
+ 	border: 1px solid #ededed;
+ 	box-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+ 	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(top, #ffffff 0%, #f7f7f7 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#f7f7f7)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#f7f7f7 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#f7f7f7 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#f7f7f7 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#f7f7f7 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7',GradientType=0 ); /* IE6-8 */
+ }
+
+ .bokus-btn-default:hover {
+ 	border: 1px solid #f8883c;
+ }
+ 
+ .bokus-main-btn {
+ 	color: #fff;
+ 	text-transform: uppercase;
+ 	text-shadow: 1px 1px 1px rgba(0,0,0,0.08);
+ 	border-radius: 0;
+	background-color: #f8883c;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.18);
+ }
+
+ .bokus-main-btn:hover {
+ 	color: #fff;
+ 	box-shadow: 0px 0px 5px rgba(243,136,150,0.88);
+ }
+
+ .bokus-minor-btn {
+ 	color: #333;
+ 	text-transform: uppercase;
+ 	text-shadow: 1px 1px 1px rgba(0,0,0,0.08);
+ 	border-radius: 0;
+ 	background-color: #fff;
+ 	border: 1px solid #dedede;
+ }
+
+ .bokus-minor-btn:hover {
+	background-color: #FFECB3;
+	border: 1px solid #f8883c;
+ }
+
+ .bokus-cart-btn {
+ 	display: inline-block;
+ 	border: 1px solid #ddd;
+ 	padding: 3px 8px;
+ 	color: #3d3d3d;
+ }
+
+ .bokus-cart-btn:hover,
+ .bokus-cart-btn:focus,
+ .bokus-cart-btn:active {
+ 	border: 1px solid #f8883c;
+ 	background-color: #FFECB3;
+ }
+ /* Button with orange border */
+ .btn-sp-orange {
+ 	color: #b2b2b2;
+ 	font-size: 12px;
+ 	text-transform: uppercase;
+ 	font-weight: bold;
+ 	border: 1px solid #f8883c;
+ 	box-shadow: 1px 1px 3px rgba(0,0,0,0.08);
+ }
+
+ .btn-sp-orange:hover {
+ 	color: #f8883c;
+ 	font-weight: bold;
+ 	text-shadow: 1px 1px 2px rgba(0,0,0,0.02);
+/* 	background: #fbbe8b;
+	background: -moz-linear-gradient(top,  #fbbe8b 0%, #f77721 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fbbe8b), color-stop(100%,#f77721));
+	background: -webkit-linear-gradient(top,  #fbbe8b 0%,#f77721 100%);
+	background: -o-linear-gradient(top,  #fbbe8b 0%,#f77721 100%);
+	background: -ms-linear-gradient(top,  #fbbe8b 0%,#f77721 100%);
+	background: linear-gradient(to bottom,  #fbbe8b 0%,#f77721 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbbe8b', endColorstr='#f77721',GradientType=0 );*/
+ }
+
+ .btn-sp-orange:active,
+ .btn-sp-orange:focus {
+ 	text-decoration: none;
+ 	color: #f8883c;
+ }
+
+ /* Override bootstrap dropdown */
+ .dropdown-menu {
+	top: 98%;
+	padding: 6px 0;
+	margin: 2px 0 0;
+	font-size: 13px;
+	border-radius: 0px !important;
+	border: 1px solid #f8883c;
+	-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+	        box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+ }
+
+ .dropdown-menu > li > a:hover,
+ .dropdown-menu > li > a:focus {
+	color: #fff;
+	text-decoration: none;
+	background-color: #f8883c;
+ }
+
+ /* Right column - for holding categories, fitlter, social connection, etc. */
+ .right-col {
+ 	padding-right: 0px;
+ }
+
+ .ui-alert {
+ 	display: none;
+ 	padding: 10px 15px;
+ 	border-radius: 4px;
+ 	box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
+ 	z-index: 1000;
+ }
+
+ .ui-alert p {
+ 	margin-left: 10px;
+ 	margin-right: 20px;
+ 	margin-bottom: 0;
+ 	display: inline-block;
+ }
+
+ .ui-alert div.close {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	margin-top: -4px;
+ }
+
+ .ui-alert div.close img {
+ 	height: 16px;
+	width: 16px;	
+ }
+
+ .ui-alert-fixed {
+ 	position: fixed;
+ 	top: 20px;
+ }
+
+ .ui-alert-success {
+ 	color: #fff;
+ 	background-color: #A4D02A;
+	border-bottom: 3px solid #80aa00;
+ }
+
+ /* Book status */
+ .in-stock {
+ 	color: #479e00;
+ }
+
+ .clearfix {
+ 	clear: both;
+ }

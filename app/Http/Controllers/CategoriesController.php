@@ -1,5 +1,6 @@
 <?php namespace bokus\Http\Controllers;
 
+use bokus\Category;
 use bokus\Http\Requests;
 use bokus\Http\Controllers\Controller;
 
@@ -24,7 +25,104 @@ class CategoriesController extends Controller {
 	 */
 	public function create()
 	{
-		//
+//		$categories = array(
+//            [
+//                'name' => 'Cooking, Food & Wine',
+//                'slug' => 'cooking'
+//            ],
+//            [
+//                'name' => 'Religion & Inspiration',
+//                'slug' => 'religion-inspiration'
+//            ],
+//            [
+//                'name' => 'Science Fiction & Fantasy',
+//                'slug' => 'science-fiction'
+//            ],
+//            [
+//                'name' => 'Biography',
+//                'slug' => 'biography'
+//            ],
+//            [
+//                'name' => 'History',
+//                'slug' => 'history'
+//            ],
+//            [
+//                'name' => 'Kids',
+//                'slug' => 'kids'
+//            ],
+//            [
+//                'name' => 'Graphic Novels & Comic Books',
+//                'slug' => 'novel-comic'
+//            ],
+//            [
+//                'name' => 'African American',
+//                'slug' => 'african-american'
+//            ],
+//            [
+//                'name' => 'Art, Architecture & Photography',
+//                'slug' => 'art'
+//            ],
+//            [
+//                'name' => 'Business',
+//                'slug' => 'business'
+//            ],
+//            [
+//                'name' => 'Computers',
+//                'slug' => 'computers'
+//            ],
+//            [
+//                'name' => 'Crafts, Hobbies & Antiques',
+//                'slug' => 'hobby-antique'
+//            ],
+//            [
+//                'name' => 'Diet & Health',
+//                'slug' => 'diet-health'
+//            ],
+//            [
+//                'name' => 'Education & Teaching',
+//                'slug' => 'education'
+//            ],
+//            [
+//                'name' => 'Engineering',
+//                'slug' => 'engineering'
+//            ],
+//            [
+//                'name' => 'Entertainment',
+//                'slug' => 'entertainment'
+//            ],
+//            [
+//                'name' => 'HOme, Garden & Pets',
+//                'slug' => 'garden-pet'
+//            ],
+//            [
+//                'name' => 'Humor Books',
+//                'slug' => 'humor'
+//            ],
+//            [
+//                'name' => 'Law',
+//                'slug' => 'law'
+//            ],
+//            [
+//                'name' => 'Libros en español',
+//                'slug' => 'espanol'
+//            ],
+//            [
+//                'name' => 'Medical & Nurning Books',
+//                'slug' => 'medical'
+//            ],
+//            [
+//                'name' => 'Mystery, Crimes & Thrillers',
+//                'slug' => 'mystery-crime'
+//            ],
+//            [
+//                'name' => 'New Age, Spirituality & Alternative Beliefs',
+//                'slug' => 'new-age'
+//            ],
+//            [
+//                'name' => 'Parenting & Family',
+//                'slug' => 'parenting'
+//            ]
+//        );
 	}
 
 	/**

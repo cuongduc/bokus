@@ -1,6 +1,9 @@
 <?php namespace bokus\Providers;
 
+use bokus\Category;
 use Illuminate\Support\ServiceProvider;
+use Cart;
+use View;
 
 class AppServiceProvider extends ServiceProvider {
 
@@ -33,6 +36,12 @@ class AppServiceProvider extends ServiceProvider {
 		if ($this->app->environment() == 'local') {
 	        $this->app->register('Laracasts\Generators\GeneratorsServiceProvider');
 	    }
+
+        $this->app->booted(function()
+        {
+            View::share('categories', Category::all());
+            View::share('cart', Cart::content());
+        });
 	}
 
 }

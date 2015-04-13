@@ -1,0 +1,22 @@
+/**
+ * form.css - styles for form elements
+ */
+
+.bokus-form-input {
+	display: block;
+	width: 100%;
+	padding: 4px 6px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box; 
+}
+
+.bokus-form-input:focus {
+		-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box; 
+
+	border: 1px solid #f8883c;
+}

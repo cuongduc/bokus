@@ -1,0 +1,99 @@
+/**
+ * auth.css - styles for Authentication sites
+ * @author: cuongdd;
+ * @created at: ;
+ */
+
+/**
+ * account form
+ */
+.account-form {
+	margin-top: 70px;
+	background-color: #fff;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-bottom: 15px;
+	border: 1px solid #f8883c;
+	box-shadow: 0px 0px 20px rgba(0,0,0,0.12);
+}
+
+.account-form .form-group {
+	position: relative;
+}
+
+.account-form .account-form-title {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 26px;
+	/*text-align: center;*/
+	margin-bottom: 20px;
+}
+
+.account-form #submit {
+	border-radius: 0;
+	background: #f8883c !important; 
+	color: #fff;
+	padding: 8px 12px;
+}
+
+.account-form .label-separator {
+	text-align: center;
+	margin-top: 2px;
+	margin-left: 5px;
+}
+
+.account-form #registerAccount {
+	margin-top: 5px;
+}
+
+.account-form .checkbox {
+	width: 50%;
+}
+
+#signupform input {
+	width: 60%;
+}
+
+input:focus {
+	outline: none;
+}
+
+#signupform .helper-text {
+	position: absolute;
+	top: 15px;
+	right: 0;
+	width: 38%;
+	padding: 5px;
+	border-radius: 2px;
+	color: #fff;
+	background-color: #f8883c;
+}
+
+/**
+ * http://cssarrowplease.com/
+ */
+.callout {
+	box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+}
+
+.callout:after, .callout:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-event: none;
+}
+
+.callout:after { 
+	border-right-color: #f8883c; 
+	border-width: 8px; 
+	margin-top: -8px; 
+} 
+
+
+#loginform {
+	margin-bottom: 25px;
+}

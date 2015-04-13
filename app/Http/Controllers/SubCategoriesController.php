@@ -24,7 +24,7 @@ class SubCategoriesController extends Controller {
 	 */
 	public function create()
 	{
-		//
+
 	}
 
 	/**

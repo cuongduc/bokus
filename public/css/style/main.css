@@ -1,0 +1,361 @@
+/**
+ * main.css - styling for main part of the page
+ * @author: cuongdd
+ * @createat: 22:11 20 January 2015 (Tuesday);
+ */
+
+  /**
+   * Centering a block within a container
+   */
+ .center-block {
+    float: none;
+    margin: auto;
+ }
+
+ .main {
+ }
+
+ .main .right-wrapper ul {
+ 	list-style: none;
+ 	padding-left: 0px;
+ 	background-color: #fff;
+ 	border-left: 1px solid #f8883c;
+ 	border-right: 1px solid #f8883c;
+ 	border-bottom: 1px solid #f8883c;
+ 	border-top: none;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+  z-index: 1000;
+ }
+ 
+ .main .right-wrapper ul.categories > li {
+ 	padding: 6px 8px;
+ 	margin: 0px;
+ 	border-bottom: 1px solid #ededed;
+ 	text-transform: uppercase;
+ 	cursor: pointer;
+  position: relative; /* Used for sub menu */
+ }
+ .main .right-wrapper ul.categories > li:last-child {
+ 	border-bottom: none;
+ }
+ .main .right-wrapper ul.categories > li:hover {
+ 	background-color: #f8883c;
+ }
+ .main .right-wrapper ul.categories > li:hover a {
+ 	color: #fff;
+ }
+ .main .right-wrapper ul.categories > li:hover i.fa {
+ 	color: #fff;
+ }
+
+ .main .right-wrapper ul.categories > li > a {
+ 	font-family: 'Arial', sans-serif;
+ 	font-weight: 600;
+ 	font-size: 11px;
+ 	color: #323232;
+ }
+
+ .main .right-wrapper ul.categories > li i.fa {
+ 	color: #777;
+ }
+
+ /* Sub menu */
+ ul.categories li ul.category_submenu {
+  display: none;
+  list-style: none;
+  padding: 0;
+  border: none;
+  background-color: #f8883c;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.07);
+ }
+
+ ul.categories li:hover ul.category_submenu {
+  display: block;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  width: 250px;
+ }
+
+ ul.categories li:hover li.category_submenu-item {
+  padding: 6px 25px;
+  float: none;
+ }
+
+ ul.categories li:hover li.category_submenu-item:hover {
+  background-color: rgba(255,255,255,0.2);
+ }
+
+ ul.categories li:hover li.category_submenu-item a {
+  text-transform: none;
+  color: #fff !important;
+ }
+ /*
+  * Main content
+  */
+ .main .main-wrapper {
+ 	margin-top: 15px;
+ }
+
+
+ .main .slider {
+ 	height: 320px;
+ 	background: url('../../img/slider/slider-1.jpg') no-repeat;
+ 	background-size: cover;
+ 	border-radius: 2px;
+ 	border: 1px dotted #ccc;
+ }
+
+
+ /* Main section */
+ .main .content-sec {
+ 	padding: 15px;
+ 	margin-top: 15px;
+ 	margin-bottom: 15px;
+ 	background-color: #fff;
+ 	border-radius: 2px;
+ 	border-bottom: 3px solid #dedede;
+ }
+
+ .main .content-sec .section-header {
+ 	margin-bottom: 15px;
+ }
+
+ .main .content-sec .section-header .section-title,
+ .section-title {
+ 	font-family: 'Georgia', sans-serif;
+ 	font-weight: 300;
+ 	font-size: 22px;
+ 	margin-top: 0;
+ 	margin-bottom: 0;
+ }
+
+ .main .section-content {
+ 	margin-bottom: 15px;	
+ }
+
+ /* Specific styles for each section */
+ #upcomming {
+ 	border-top: 3px solid #a4d02a;
+ }
+
+ #popular {
+ 	border-top: 3px solid #f8883c;
+ }
+
+ #recommendation {
+ 	border-top: 3px solid #3ca0d3;
+ }
+
+ #popularAuthor {
+ 	border-top: 3px solid #323232;
+ }
+
+
+/**
+ * Book Article
+ */
+ .article {
+	border-radius: 2px;
+ }
+
+ .artcile:hover {
+	border: 1px solid #a4d02a;
+ }
+
+ .article p {
+ 	margin-bottom: 0;
+ }
+
+ .article a:hover {
+ 	text-decoration: underline;
+ 	color: #323232;
+ }
+
+ .article .article-badge {
+ 	position: absolute;
+ 	width: 71.45%;
+ }
+
+ /* Styles for different kind of badges */
+ .new {
+ 	border-top: 2px solid #a4d02a;
+ }
+
+ .soldout {
+ 	border-top: 2px solid #f8883c;
+ } 
+
+ .discount {
+ 	border-top: 2px solid #3ca0d3;
+ }
+
+ .article .article-badge .status {
+  	float: right;
+  	margin-top: -3px;
+  	margin-right: 4px;
+  	border: none;
+  	border-bottom-left-radius: 0px;
+  	border-bottom-right-radius: 0px;
+  	padding: 3px 5px;
+  	box-shadow: 1px 1px 2px rgba(0,0,0,0.25);
+  }
+
+ .new .status {
+  	background-color: #a4d02a;
+ }
+
+ .discount .status {
+ 	background-color: #3ca0d3;
+ }
+
+ .soldout .status {
+ 	background-color: #f8883c;
+ }
+
+ .article .article-badge .status .tag {
+ 	color: #fff;
+ 	font-weight: bold;
+ 	text-shadow: 0px 0px 2px rgba(0,0,0,0.25);
+ }
+ 
+ .article .article-img {
+ 	min-height: 209px; /* To make all article equally height*/
+ }
+
+ .article .article-img, .article .article-info {
+ 	width: 100%;
+ 	padding: 10px 10px 4px 10px;
+ }
+ 
+ .article:hover .article-img .book-cover-sm {
+	box-shadow: 0px 0px 8px rgba(0,0,0,.15);
+ }
+
+ .article .article-img .book-cover-sm {
+ 	width: 100%;
+ 	height: auto;
+ }
+
+ .article .article-info .title {
+ 	font-size: 13px;
+ 	font-weight: bold;
+ 	min-height: 36px;
+ }
+
+ .article .article-info .pricebox,
+ .article .article-info .authorbox {
+ 	color: #777;
+ }
+
+ .article .article-info .authorbox .author {
+ 	color: #3ca0d3;
+ }
+
+ .article .article-info .pricebox {
+ 	margin: 3px 0px;
+ }
+
+ .article .article-info .pricebox .price {
+ 	color: #323232;
+ 	font-size: 14px;
+ 	font-weight: bold;
+ }
+
+ .article .article-info .ratingbox {
+ 	background: url('../../img/icon/star.png') repeat-x;
+ 	height: 16px;
+ 	width: 80px;
+ }
+
+ .article .article-info .ratingbox .rates {
+	background: url('../../img/icon/star.active.png') repeat-x;
+ 	height: 16px;
+ 	width: 62%;
+ }
+
+ /* Article Button */
+ .article .article-button {
+ 	padding: 0px 10px;
+ }
+
+ .article .article-button button {
+ 	width: 100%;
+ }
+
+ .section-content .author .img > .author-img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto;
+ }
+
+ .section-content .author .img > .author-img:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.35);
+ }
+
+ .section-content .author .name {
+    text-align: center;
+ }
+
+ .section-content .author .name .author-name {
+    font-weight: bold
+ }
+
+ .section-content .author-bio {
+    padding-left: 0px;
+ }
+
+ /**
+  * Category
+  */
+ .section-header {
+  position: relative;
+ }
+
+ .section-header .section-title {
+  color: #f8883c;
+ }
+
+ .section-header .section-title .meta-text {
+  color: #3c3c3c;
+ }
+ 
+ .section-header .header-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+ }
+
+ .section-header .header-menu div {
+  display: inline-block;
+ }
+
+ .section-header .header-menu .menu-toggle .toggle-wrap {
+  margin-left: 10px;
+ }
+
+ /**
+  * Global ratings
+  */
+ 
+ .rating-box {
+  width: 80px;
+  height: 16px;
+  background: url('../../img/icon/star.png') repeat-x ;
+ }
+
+ .ratings {
+  max-width: 80px;
+  height: 16px;
+  background: url('../../img/icon/star.active.png');
+ }
+
+
+ /**
+  * Global
+  */
+ .display-inline {
+  display: inline-block;
+ }

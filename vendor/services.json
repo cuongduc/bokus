@@ -26,7 +26,8 @@
         "bokus\\Providers\\BusServiceProvider",
         "bokus\\Providers\\ConfigServiceProvider",
         "bokus\\Providers\\EventServiceProvider",
-        "bokus\\Providers\\RouteServiceProvider"
+        "bokus\\Providers\\RouteServiceProvider",
+        "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
     ],
     "eager": [
         "Illuminate\\Auth\\AuthServiceProvider",
@@ -44,7 +45,8 @@
         "bokus\\Providers\\BusServiceProvider",
         "bokus\\Providers\\ConfigServiceProvider",
         "bokus\\Providers\\EventServiceProvider",
-        "bokus\\Providers\\RouteServiceProvider"
+        "bokus\\Providers\\RouteServiceProvider",
+        "Gloudemans\\Shoppingcart\\ShoppingcartServiceProvider"
     ],
     "deferred": {
         "command.app.name": "Illuminate\\Foundation\\Providers\\ArtisanServiceProvider",

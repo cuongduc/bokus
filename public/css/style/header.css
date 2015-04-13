@@ -1,0 +1,170 @@
+/**
+ * header.css - styling for header part of the page
+ * @author: cuongdd
+ * @createat: 22:11 20 January 2015 (Tuesday);
+ */
+
+ /*
+  * Topbar
+  */
+ .topbar {
+ 	background-color: #fff;
+ 	border-bottom: 1px dotted #ccc;
+ }
+
+ .topbar ul.topnav {
+ 	list-style: none;
+ 	margin-top: 8px;
+ 	margin-bottom: 8px;
+ }
+
+ .topbar ul.topnav > li {
+ 	display: inline-block;
+ 	padding: 2px 5px;
+ 	border-left: 1px dotted #ccc;
+ }
+
+ .topbar ul.topnav > li:first-child {
+ 	margin-left: 0px;
+ 	border-left: none;
+ }
+
+ .topbar ul.topnav > li:last-child {
+ 	margin-right: 0px;
+ }
+
+ .topbar ul.topnav > li > a {
+	color: #777;
+ }
+
+ .topbar ul.topnav > li > a:hover {
+ 	color: #f8883c;
+ }
+
+ .topbar ul.topnav > li > a i {
+ 	margin-right: 2px;
+ }
+
+ /**
+  * Header
+  */
+ .header {
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	background-color: #fff;
+ }
+ /* Logo */
+ .header .logo .header-logo {
+	height: 52px;
+	vertical-align: middle;
+ }
+ 
+ /* Navbar Search */
+ .header .nav-form {
+ 	margin-top: 12px;
+ }
+
+ .nav-form .input-group {
+ 	border: 2px solid #f8883c;
+ 	box-shadow: 1px 1px 3px rgba(0,0,0,0.12);
+ }
+
+ .nav-form .input-group button.btn {
+	border-radius: 0;
+	border-left: none;
+	border-top: none;
+	border-bottom: none;
+ }
+
+ .btn:focus,
+ .btn:active:focus,
+ .btn.active:focus,
+ .btn.focus,
+ .btn:active.focus,
+ .btn.active.focus {
+	outline: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+ 
+ .nav-form .input-group input.form-control {
+	        transition: none !important;
+	     -o-transition: none !important;
+	-webkit-transition: none !important;
+	border-top: none;
+	border-bottom: none;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+ }
+
+ .nav-form .input-group button#searchButton {
+ 	border-left: 1px solid #ddd;
+ 	border-top: 1px solid #f8883c;
+ 	border-right: 1px solid #f8883c;
+ 	border-bottom: 1px solid #f8883c;
+ 	background-color: #f8883c;
+ 	color: #fff;
+ }
+
+ .nav-form .input-group input.form-control:focus {
+ 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+            box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+ }
+
+ /*-- end of Navbar Search */
+
+ /* Navbar buttons */
+ .header .header-col {
+ 	padding-right: 4px;
+ 	padding-left: 4px;
+ }
+
+ .header .header-btn {
+ 	width: 100%;
+ 	padding-right: 5px;
+ 	padding-left: 5px;
+ 	margin-top: 6px;
+ 	min-height: 51px;
+ 	height: 51px;
+ }
+
+ #checkOrderStatusButton:hover {
+	color: #323232;
+ }
+
+
+ /**
+  * Navigation
+  */
+ .navigation {
+ 	background-color: #fff;
+ 	box-shadow: 0px 2px 2px rgba(0,0,0,0.08);
+ 	padding: 4px 0px 0px 0px;
+ }
+
+ .navigation p {
+ 	margin-bottom: 0;
+ }
+
+ .navigation .cat-wrapper {
+ 	padding: 6px 10px;
+ 	border-left: 1px solid #f8883c;
+ 	border-right: 1px solid #f8883c;
+ 	border-top: 1px solid #f8883c;
+	border-bottom: none;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	background-color: #323232;
+ }
+
+ .navigation .cat-wrapper a {
+ 	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: "Lato", sans-serif;
+ }
+
+ .navigation .cat-wrapper a i.fa {
+ 	color: #fff;
+ 	margin-right: 5px;
+ }
