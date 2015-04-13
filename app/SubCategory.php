@@ -10,7 +10,7 @@ class SubCategory extends Model {
 
 	protected $rules = [
 		'name:between:3,255',
-		'slug:unique'
+		'slug:unique:sub_categories'
 	];
 
 	public function rules()

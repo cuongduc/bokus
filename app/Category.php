@@ -20,7 +20,7 @@ class Category extends Model {
 
 	protected $rules = [
 		'name:between:3,255',
-		'slug:unique'
+		'slug:unique:categories'
 	];
 
 

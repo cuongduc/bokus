@@ -55,8 +55,8 @@ return [
 		'mysql' => [
 			'driver'    => 'mysql',
 			'host'      => env('DB_HOST', 'localhost'),
-			'database'  => env('DB_DATABASE', 'forge'),
-			'username'  => env('DB_USERNAME', 'forge'),
+			'database'  => env('DB_DATABASE', 'bokus'),
+			'username'  => env('DB_USERNAME', 'root'),
 			'password'  => env('DB_PASSWORD', ''),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
@@ -66,7 +66,7 @@ return [
 
 		'pgsql' => [
 			'driver'   => 'pgsql',
-			'host'     => '127.0.0.1',
+			'host'     => 'localhost',
 			'database' => 'bokus',
 			'username' => 'postgres',
 			'password' => '',
